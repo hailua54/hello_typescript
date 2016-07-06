@@ -1,0 +1,20 @@
+{
+    "filesGlob": [
+        "**/*.ts",
+        "**/*.tsx",
+        "!node_modules/**"
+    ],
+    "files": [],
+    "compileOnSave": true,
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outFile": "./js/ts.js",
+        "sourceMap": true
+    },
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}
